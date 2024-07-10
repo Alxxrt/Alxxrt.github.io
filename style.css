@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+ .menu {
+    display: flex;
+ }
+ .logo {
+    font-size: 1.5rem;
+ }
+
+ .menu li {
+    list-style: none;
+    margin: 1rem;
+ }
+ .text-topic {
+     color: mediumpurple;
+     text-decoration: none;
+     font-family: sans-serif;
+ }
+
+nav {
+    background-color: GhostWhite;
+}
+a {
+    color: mediumpurple;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width: 360px) {
+    .nav-con {
+        padding: 3rem 0;
+        flex-direction: column;
+        height: auto;
+    }
+    .menu {
+        text-align: center;
+        flex-direction: column;
+    }
+    .meni li {
+        padding: 1rem 0;
+        margin-left: 0;
+    }
+    .meni li:hover {
+        background-color: RebeccaPurple;
+    }
+    
+}
